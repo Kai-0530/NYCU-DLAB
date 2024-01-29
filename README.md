@@ -5,7 +5,7 @@
 Sequential Multiplier
 
 ## LAB2
-用最多9個乘法做出3x3矩陣相乘的模組。  
+用最多9個乘法器做出3x3矩陣相乘的模組。  
 
 ## LAB3
 Design Simple ALU  
