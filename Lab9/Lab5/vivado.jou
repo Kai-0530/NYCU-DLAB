@@ -1,0 +1,404 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Dec  1 17:37:06 2023
+# Process ID: 16732
+# Current directory: C:/Users/user/Desktop/Vivado/Lab9/Lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21444 C:\Users\user\Desktop\Vivado\Lab9\Lab5\Lab5.xpr
+# Log file: C:/Users/user/Desktop/Vivado/Lab9/Lab5/vivado.log
+# Journal file: C:/Users/user/Desktop/Vivado/Lab9/Lab5\vivado.jou
+# Running On: DESKTOP-7K0J699, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 6, Host memory: 17032 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Desktop/Vivado/Lab9/Lab5/Lab5.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/user/Desktop/Vivado/Lab9/Lab5/Lab5.srcs/sources_1/new
+close [ open C:/Users/user/Desktop/Vivado/Lab9/Lab5/Lab5.srcs/sources_1/new/md5.v w ]
+add_files C:/Users/user/Desktop/Vivado/Lab9/Lab5/Lab5.srcs/sources_1/new/md5.v
+update_compile_order -fileset sources_1
+file mkdir C:/Users/user/Desktop/Vivado/Lab9/Lab5/Lab5.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/user/Desktop/Vivado/Lab9/Lab5/Lab5.srcs/sim_1/new/test_tb.v w ]
+add_files -fileset sim_1 C:/Users/user/Desktop/Vivado/Lab9/Lab5/Lab5.srcs/sim_1/new/test_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_lab5.tcl
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+synth_design -top lab5 -part xc7a35ticsg324-1L -lint 
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+source tb_lab5.tcl
+close_sim
+launch_simulation
+source tb_lab5.tcl
+close_sim
+launch_simulation
+source tb_lab5.tcl
+close_sim
+launch_simulation
+source tb_lab5.tcl
+close_sim
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_lab5.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source tb_lab5.tcl
+close_sim
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_lab5.tcl
+close_sim
+launch_simulation
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source tb_lab5.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+update_compile_order -fileset sim_1
+launch_simulation
+source lab9.tcl
+close_sim
+launch_simulation
+source lab9.tcl
+close_sim
+launch_simulation
+source lab9.tcl
+close_sim
+launch_simulation
+source lab9.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source md5_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source md5_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source md5_tb.tcl
+close_sim
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+remove_forces { {/lab9_tb/LCD_RS} {/lab9_tb/LCD_RW} {/lab9_tb/LCD_E} {/lab9_tb/LCD_D} }
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 1 s
+run 100 ms
+run 1 ms
+run 1 ms
+relaunch_sim
+run 1 ms
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab9_tb.tcl
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+run 10 us
+relaunch_sim
+run 10 us
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+run 10 us
+run 10 us
+relaunch_sim
+run 1 s
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+run 1 ms
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+run 1 ms
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+run 1 ms
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+run 1 ms
+run 1 ms
+run 1 ms
+run 1 ms
+run 1 ms
+run 1 ms
+run 10 ms
+run 10 ms
+run 10 ms
+run 10 ms
+run 10 ms
+run 20 ms
+run 20 ms
+relaunch_sim
+run 60 ms
+run 200 ms
+run 50 ms
+run 50 ms
+run 50 ms
+close_sim
+launch_simulation
+source lab9_tb.tcl
+relaunch_sim
+run 100 ms
+close_sim

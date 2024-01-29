@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Oct 23 19:19:36 2023
+# Process ID: 6404
+# Current directory: C:/Users/Shlab_26/Desktop/Lab5/Lab5.runs/synth_1
+# Command line: vivado.exe -log lab5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab5.tcl
+# Log file: C:/Users/Shlab_26/Desktop/Lab5/Lab5.runs/synth_1/lab5.vds
+# Journal file: C:/Users/Shlab_26/Desktop/Lab5/Lab5.runs/synth_1\vivado.jou
+# Running On: DESKTOP-DOA6ICE, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 6, Host memory: 17053 MB
+#-----------------------------------------------------------
+source lab5.tcl -notrace

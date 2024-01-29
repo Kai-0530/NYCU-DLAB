@@ -1,0 +1,20 @@
+FSM:
+INIT 初始化
+PROMPT 發送第一行訊息
+READ_NUM 讀入第一個數字(等enter就結束)
+READ_NUM2 毒入第二個數字(等enter就結束)
+REPLY 回復答案
+
+revise 1 : 將num在INIT和PROMPT狀態 清除 + 按照state放進NUM1/2
+
+WHY WE NEED ECHO?
+WHY NOT USE RX_BYTE HERE?
+
+may ok?
+check:
+send_counter 
+1.P下一個是INIT: send_counter <= 0 (PROMPT的starting index)
+2.P下一個是READ_NUM: send_counter <= 27 (READ的starting index)
+others: 當Q下一個是INCR時+1 
+當寫入時 echo收到的
+當取出時 一次推一位 發送8'h0的時候就是結束(print_done)

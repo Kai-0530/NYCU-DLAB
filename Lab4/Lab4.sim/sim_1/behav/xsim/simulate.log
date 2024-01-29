@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+debounced_button = 0
+$finish called at time : 180 ns : File "C:/Users/user/Desktop/Vivado/Lab4/Lab4.srcs/sim_1/new/test_tb.v" Line 38
